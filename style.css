@@ -6,6 +6,8 @@ span{
 }
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+
 }
 h1{
     color:orangered;
@@ -144,8 +146,76 @@ h1{
 }
 
 .how-to-order{
-border: 10px solid orangered;
-border-radius: 10px;
 color: gray;
 padding: 3% 5% 3% 5%;
+}
+
+
+
+
+
+
+
+
+.last-section{
+    display: flex;
+    text-align: center;
+    padding: 2%;
+    width: 95%;
+
+
+}
+
+.head-four{
+    color: orangered;
+
+}
+
+.image-size{
+    size: 50px;
+}
+
+
+
+#burger{
+    width: 80%;
+}
+
+#pizza{
+    width: 80%;
+}
+
+#salad{
+    width: 80%;
+}
+
+
+.burger{
+    border: 10px solid orangered;
+    border-radius: 7px;
+    padding:2px 3px 2px 3px;
+    box-shadow: 10px 10px 40px orange;
+    margin-left: 10px;
+    margin-right: 14px;
+
+}
+
+.pizza{
+    border: 10px solid orangered;
+    border-radius: 7px;
+    padding:2px 3px 2px 3px;
+    box-shadow: 10px 10px 40px orange;
+    margin-left: 14px;
+    margin-right: 14px;
+
+}
+
+.salad{
+    border: 10px solid orangered;
+    border-radius: 7px;
+    padding:2px 3px 2px 3px;
+    box-shadow: 10px 10px 40px orange;
+    margin-left: 14px;
+    margin-right: 10px;
+
 }
