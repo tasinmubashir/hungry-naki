@@ -1,22 +1,11 @@
-span{
-    color:orangered;
-    font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
 body{
     font-family: 'Otomanopee One', sans-serif;
     margin: 0;
-
-}
-h1{
-    color:orangered;
 }
 
-.main-peragraph{
-    text-align: justify;
+.top-button-1{
+    text-align: center;
 }
-
 .top-button{
     color: black;
     font-weight: 700;
@@ -27,38 +16,15 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image:linear-gradient(orange , orangered);
 }
-
 .top-button-color{
     text-decoration: none;
     color: white;
 }
 
-.top-button-1{
-    text-align: center;
-}
 
 
-.button{
-
-        font-size: 17px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: white;
-        background-image: linear-gradient(orange , red)   ;
-        border: 2px solid;
-        border-radius: 30px;
-        padding: 6px;
-        text-decoration: none;
-}
 
 
-#main-image{
-    padding-left: 10%;
-}
-
-#pera-one{
-    padding-top: 20%;
-    padding-left: 18%;
-}
 
 
 .section-one{
@@ -66,22 +32,51 @@ h1{
     display:flex;
     background-repeat: repeat-y;
     background-size: 20%;
-
 }
-
 .first-block{
     width:50%;
 }
+#pera-one{
+    padding-top: 20%;
+    padding-left: 18%;
+}
+.main-peragraph{
+    text-align: justify;
+}
+span{
+    color:orangered;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
 
-.first-block img {
-    width: 100%;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-image: linear-gradient(orange , red)   ;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 6px;
+    text-decoration: none;
+}
+#main-image{
+    padding-left: 10%;
 }
 
 
-.second-section-head{
-    padding-right: 2%;
-}
 
+
+
+
+.section-two{
+    display: flex;
+    background-image: url(Copy\ of\ food\ \(2\).png);
+    text-align: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 10px 2px 0px 5px;
+    margin-bottom: 20px;
+}
 .second-section{
     text-align:right;
     padding-bottom: 0%;
@@ -92,7 +87,9 @@ h1{
     background-repeat: repeat-y;
     background-size: 20%;
 }
-
+.second-section-head{
+    padding-right: 2%;
+}
 .second-section-one{
     text-align-last: right;
     padding-left: 45%;
@@ -102,21 +99,11 @@ h1{
     text-align: flex;
     font-size: initial;
 } 
-
-.section-two{
-    display: flex;
-    background-image: url(Copy\ of\ back002\ \(1\).png);
-    text-align: right;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border: 10px 2px 0px 5px;
-}
-
 .read-more{
     font-size: 17px;
         font-family: cursive;
-        color: orange;
-        background-image: linear-gradient(orangered , black);
+        color:white
+        background-image: linear-gradient(pink , orange);
         border: 2px solid;
         border-radius: 30px;
         padding: 6px;
@@ -126,29 +113,35 @@ h1{
 
 
 
-.third-section h3{
-    color: black;
-    text-align: center;
-    size: initial;
-    width:inherit;
-    
-}
+
+
+
 
 #section-three{
+    background-image: url(food.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 20%;
     padding-top: 0%;
     text-align: center;
+    display:block;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
 }
-
-
 .head-five{
     color:black;
     font-size: 20px;
+    margin-bottom: 10px;
+}
+.how-to-order{
+    color:orangered;
+    margin: 0;
+    padding: 3% 5% 3% 5%;
+    margin-top: -50px;
+    margin-bottom: -50px;
 }
 
-.how-to-order{
-color: gray;
-padding: 3% 5% 3% 5%;
-}
 
 
 
@@ -162,34 +155,7 @@ padding: 3% 5% 3% 5%;
     text-align: center;
     padding: 2%;
     width: 95%;
-
-
 }
-
-.head-four{
-    color: orangered;
-
-}
-
-.image-size{
-    size: 50px;
-}
-
-
-
-#burger{
-    width: 80%;
-}
-
-#pizza{
-    width: 80%;
-}
-
-#salad{
-    width: 80%;
-}
-
-
 .burger{
     border: 10px solid orangered;
     border-radius: 7px;
@@ -197,7 +163,35 @@ padding: 3% 5% 3% 5%;
     box-shadow: 10px 10px 40px orange;
     margin-left: 10px;
     margin-right: 14px;
+}
+#burger{
+    width: 80%;
+}
+.head-four{
+    color: orangered;
+}
 
+
+h1{
+    color:orangered;
+}
+.first-block img {
+    width: 100%;
+}
+.third-section h3{
+    color: black;
+    text-align: center;
+    size: initial;
+    width:inherit;   
+}
+.image-size{
+    size: 50px;
+}
+#pizza{
+    width: 80%;
+}
+#salad{
+    width: 80%;
 }
 
 .pizza{
@@ -207,9 +201,7 @@ padding: 3% 5% 3% 5%;
     box-shadow: 10px 10px 40px orange;
     margin-left: 14px;
     margin-right: 14px;
-
 }
-
 .salad{
     border: 10px solid orangered;
     border-radius: 7px;
@@ -217,5 +209,19 @@ padding: 3% 5% 3% 5%;
     box-shadow: 10px 10px 40px orange;
     margin-left: 14px;
     margin-right: 10px;
+}
 
+
+
+
+
+
+
+
+
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 50%;
 }
