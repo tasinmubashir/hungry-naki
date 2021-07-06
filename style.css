@@ -1,0 +1,151 @@
+span{
+    color:orangered;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    font-family: 'Otomanopee One', sans-serif;
+}
+h1{
+    color:orangered;
+}
+
+.main-peragraph{
+    text-align: justify;
+}
+
+.top-button{
+    color: black;
+    font-weight: 700;
+    border: 3px solid orangered;
+    padding: 2px 4px 2px 25px;
+    padding-inline-end: 20px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image:linear-gradient(orange , orangered);
+}
+
+.top-button-color{
+    text-decoration: none;
+    color: white;
+}
+
+.top-button-1{
+    text-align: center;
+}
+
+
+.button{
+
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-image: linear-gradient(orange , red)   ;
+        border: 2px solid;
+        border-radius: 30px;
+        padding: 6px;
+        text-decoration: none;
+}
+
+
+#main-image{
+    padding-left: 10%;
+}
+
+#pera-one{
+    padding-top: 20%;
+    padding-left: 18%;
+}
+
+
+.section-one{
+    background-image: url(pizza\ \(1\).png);
+    display:flex;
+    background-repeat: repeat-y;
+    background-size: 20%;
+
+}
+
+.first-block{
+    width:50%;
+}
+
+.first-block img {
+    width: 100%;
+}
+
+
+.second-section-head{
+    padding-right: 2%;
+}
+
+.second-section{
+    text-align:right;
+    padding-bottom: 0%;
+    padding-left: 47%;
+    font-size: 40px;
+    border:0px solid white;
+    background-image: url(pizza\ \(1\).png);
+    background-repeat: repeat-y;
+    background-size: 20%;
+}
+
+.second-section-one{
+    text-align-last: right;
+    padding-left: 45%;
+    padding-right: 2%;
+    border-bottom: 5px;
+    font-weight: 10;
+    text-align: flex;
+    font-size: initial;
+} 
+
+.section-two{
+    display: flex;
+    background-image: url(Copy\ of\ back002\ \(1\).png);
+    text-align: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 10px 2px 0px 5px;
+}
+
+.read-more{
+    font-size: 17px;
+        font-family: cursive;
+        color: orange;
+        background-image: linear-gradient(orangered , black);
+        border: 2px solid;
+        border-radius: 30px;
+        padding: 6px;
+        text-decoration: none;
+}
+
+
+
+
+.third-section h3{
+    color: black;
+    text-align: center;
+    size: initial;
+    width:inherit;
+    
+}
+
+#section-three{
+    padding-top: 0%;
+    text-align: center;
+}
+
+
+.head-five{
+    color:black;
+    font-size: 20px;
+}
+
+.how-to-order{
+border: 10px solid orangered;
+border-radius: 10px;
+color: gray;
+padding: 3% 5% 3% 5%;
+}
